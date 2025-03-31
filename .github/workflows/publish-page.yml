@@ -23,8 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup GitHub Pages
-        if: always()
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
       - name: Upload to GitHub Pages
